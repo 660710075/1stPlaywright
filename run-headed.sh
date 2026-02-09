@@ -28,7 +28,7 @@ echo "================================================"
 echo ""
 
 # Run Playwright in headed mode
-npx playwright test --headed "$@"
+npx playwright test tests/example.spec.ts --headed "$@"
 
 # Cleanup
 echo ""
@@ -36,3 +36,5 @@ echo "🧹 Cleaning up..."
 kill $XVFB_PID 2>/dev/null
 
 echo "✅ Done!"
+
+npx playwright show-report
