@@ -1,0 +1,23 @@
+{
+  "name": "1stplaywright",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/660710075/1stPlaywright.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/660710075/1stPlaywright/issues"
+  },
+  "homepage": "https://github.com/660710075/1stPlaywright#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.2.2"
+  }
+}
